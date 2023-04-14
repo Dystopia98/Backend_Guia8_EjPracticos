@@ -47,11 +47,11 @@ public class CuentaBancariaServicio {
         return n.getSaldoactual();
     }
     public void ConsultarSaldo(CuentaBancaria n){
-        System.out.println("Saldo actual : "+n.getSaldoactual());
+        System.out.println("Saldo actual : $"+n.getSaldoactual());
     }
     public void ConsultarDatos(CuentaBancaria n){
         System.out.println("Número de cuenta : "+n.getNumcuenta());
         System.out.println("D.N.I de cliente : "+n.getDnicliente());
-        System.out.println("Saldo actual : "+n.getSaldoactual());
+        System.out.println("Saldo actual : $"+n.getSaldoactual());
     }
 }
